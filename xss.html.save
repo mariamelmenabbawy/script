@@ -2,6 +2,8 @@
   fetch("/api/fetchflag")
     .then(r => r.json())
     .then(d => {
+      // بدل webhook، نعمل console.log (هيظهر في logs البوت)
       console.log("FLAG:", d.flag);
     });
 </script>
+ 
